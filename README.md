@@ -48,3 +48,18 @@
 ├─ Dockerfile            ← multi‑stage build
 ├─ pom.xml               ← dependencies & plugins
 └─ .mvn/, mvnw*          ← Maven wrapper
+
+## 📡 API & WebSocket
+
+| Protocol | Endpoint                     | Purpose                |
+|----------|-----------------------------|------------------------|
+| **REST** | `GET /api/rooms`            | List chat rooms        |
+| **REST** | `POST /api/rooms`           | Create a room          |
+| **REST** | `GET /api/messages/{roomId}`| Paginated history      |
+| **WS (STOMP)** | `/ws`                 | Connect SockJS/WebSocket |
+| **Topic** | `/topic/rooms/{roomId}`    | Broadcast messages     |
+
+> **Swagger/OpenAPI UI** is auto‑exposed at **`/swagger-ui.html`** (dev profile).
+
+---
+
