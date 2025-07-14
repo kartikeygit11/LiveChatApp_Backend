@@ -4,7 +4,7 @@
 **Frontend (live)** → https://subtle-cocada-db48a3.netlify.app/ – built with **React + Tailwind CSS + SockJS**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourjhay/simple-chat/master/ChatUi2.png" width="420" alt="Chat UI preview">
+  <img src="./Screenshot 2025-07-15 001407.png" width="420" alt="Chat UI preview">
 </p>
 
 ---
